@@ -1,0 +1,34 @@
+>open project
+>create virtual env.
+>intall packages
+>open apps
+>settings.py add apps, template dir, static dir, media dir
+...........
+>create models for each app
+>register model name to admin.py
+>migrate
+...........
+>create home page and base template, URLs and related views for each app
+>create Templates for each views.
+(urls calls a view and a view can render/redirect to a template)
+............
+>create signup form for signup page
+>here used django buitin UserCreateationForm, so import it in view and then
+ call it to signup.html template
+>dont forgate to add csrf token
+............
+>create login form for login page
+>here used django buitin AuthenticationForm, so import it in view and then
+ call it to login.html template
+>dont forgate to add csrf token
+>import login required, login, logout, authenticate
+>create a view for login and logout
+>logout will have a @login_required to get functioned
+.............
+>user profile creation
+>update profile option
+.............
+>profile picture add
+>profile picture change
+>install django-cleanup 
+..............
